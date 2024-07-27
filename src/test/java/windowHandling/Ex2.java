@@ -31,7 +31,7 @@ public class Ex2 {
 			driver.switchTo().window(id);
 			try {
 				WebElement ele = driver.findElement(By.id("sampleHeading"));
-				System.out.println("Text = "+ele.getText());
+				System.out.println(" Text = "+ele.getText());
 				
 			}catch(Exception e) {
 				driver.close();
